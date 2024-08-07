@@ -134,6 +134,12 @@ button {
   text-wrap: nowrap;
   color: #fff;
   letter-spacing: 0.35px;
+  transition: all 0.2s ease;
+}
+.header__search-btn:hover {
+  color: #005c8a;
+  background: transparent;
+  border: 1px solid #005c8a;
 }
 .breadcrumbs {
   position: absolute;
@@ -162,4 +168,43 @@ button {
   position: absolute;
   top: 0;
   left: 0;
+}
+.hero__text {
+  max-width: 660px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 140px;
+  gap: 25px;
+}
+.hero__text h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: #000;
+}
+.hero__text p {
+  font-weight: 300;
+  font-size: 19px;
+  color: #565656;
+  line-height: 1.42857143;
+}
+.hero__btn {
+  color: #fff;
+  width: 243px;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 3px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  background: #005c8a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+.hero__btn:hover {
+  color: #005c8a;
+  background: transparent;
+  border: 1px solid #005c8a;
 }
